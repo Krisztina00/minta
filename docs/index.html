@@ -16,7 +16,69 @@
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">  <main class="svelte-fuey8r"><h1 class="svelte-fuey8r" data-svelte-h="svelte-1995vrq">Bevásárló Lista</h1> <form class="svelte-fuey8r"><input placeholder="Új elem hozzáadása" class="svelte-fuey8r" value=""> <button type="submit" c lass="svelte-fuey8r" data-svelte-h="svelte-j5o9wo">Hozzáadás</button></form> <ul class="svelte-fuey8r"></ul> </main> 
-			
+			  <style>
+    main {
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #719ece;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+li button {
+  margin-left: 10px;
+  padding: 4px 8px;
+  font-size: 14px;
+  background-color: #cd85b3;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #cd85b3;
+}
+  </style>
+  
 			<script>
 				{
 					__sveltekit_noi0c6 = {
